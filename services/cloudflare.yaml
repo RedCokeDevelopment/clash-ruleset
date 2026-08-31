@@ -1,0 +1,6 @@
+payload:
+  - DOMAIN-SUFFIX,cloudflare.com
+  - DOMAIN-SUFFIX,cloudflare-dns.com
+  - DOMAIN-SUFFIX,cloudflareresolve.com
+  - DOMAIN-SUFFIX,cloudflareclient.com
+  - DOMAIN,one.one.one.one

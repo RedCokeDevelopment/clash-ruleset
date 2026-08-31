@@ -1,0 +1,3 @@
+payload:
+  # Google services (GEOSITE,google stays in main config)
+  - DOMAIN-SUFFIX,gemini.google.com
