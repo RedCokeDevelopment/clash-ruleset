@@ -1,10 +1,15 @@
 payload:
   - PROCESS-NAME,BEService_x64.exe
   - DOMAIN-SUFFIX,cloudflare.com
+  - DOMAIN-SUFFIX,cloudflare.pay
+  - DOMAIN-SUFFIX,cloudflare.tv
   - DOMAIN-SUFFIX,cloudflare-dns.com
   - DOMAIN-SUFFIX,cloudflareresolve.com
   - DOMAIN-SUFFIX,cloudflareclient.com
   - DOMAIN,one.one.one.one
+  - DOMAIN-SUFFIX,imagedelivery.net
+  - DOMAIN-SUFFIX,pages.dev
+  - DOMAIN-SUFFIX,workers.dev
   - PROCESS-NAME,Discord.exe
   - PROCESS-NAME,DiscordPTB.exe
   - DOMAIN-SUFFIX,discord.com
