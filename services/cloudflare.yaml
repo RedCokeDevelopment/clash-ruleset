@@ -1,6 +1,15 @@
 payload:
   - DOMAIN-SUFFIX,cloudflare.com
+  - DOMAIN-SUFFIX,cloudflare.pay
+  - DOMAIN-SUFFIX,cloudflare.tv
+
+  # Cloudflare DNS
   - DOMAIN-SUFFIX,cloudflare-dns.com
   - DOMAIN-SUFFIX,cloudflareresolve.com
   - DOMAIN-SUFFIX,cloudflareclient.com
   - DOMAIN,one.one.one.one
+
+  # Cloudflare's service that run on their CDN network
+  - DOMAIN-SUFFIX,imagedelivery.net
+  - DOMAIN-SUFFIX,pages.dev
+  - DOMAIN-SUFFIX,workers.dev

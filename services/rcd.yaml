@@ -1,4 +1,14 @@
 payload:
+  # Official Red Coke Development Network
   - DOMAIN-SUFFIX,redcoke.dev
   - DOMAIN-SUFFIX,rcd.network
   - IP-CIDR6,2a0f:1cc5:1100::/40
+  
+  # RCD Product Domains
+  - DOMAIN-SUFFIX,teapot.bot
+
+  # Services that run on the RCD network, which include Service that are not on the RCD network but co-operate with RCD in some way
+  - DOMAIN-SUFFIX,aligntosun.com
+  - DOMAIN-SUFFIX,redtea.red
+  - DOMAIN-SUFFIX,redteadev.net
+  - DOMAIN-SUFFIX,liulian.dev
