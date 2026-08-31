@@ -6,3 +6,5 @@ lowlatency:
   - services/google.yaml
 
 generic:
+  - services/rcd.yaml
+  
