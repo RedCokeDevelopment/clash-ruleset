@@ -17,3 +17,5 @@ payload:
   - IP-CIDR,195.210.46.0/24
   - PROCESS-NAME,EscapeFromTarkov_BE.exe
   - DOMAIN-SUFFIX,gemini.google.com
+  - DOMAIN-SUFFIX,google.dev
+  - DOMAIN-SUFFIX,aistudio.google.com
