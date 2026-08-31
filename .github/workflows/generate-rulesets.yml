@@ -29,11 +29,12 @@ jobs:
           if git ls-remote --exit-code --heads origin auto >/dev/null 2>&1; then
             git fetch origin auto
             git switch --force -C auto origin/auto
-            git rm -rf .
+            git rm -rf --ignore-unmatch .
             git clean -fdx
           else
             git switch --orphan auto
-            git rm -rf .
+            git rm -rf --ignore-unmatch .
+            git clean -fdx
           fi
 
           cp "$RUNNER_TEMP/generated/lowlatency.yaml" ./lowlatency.yaml
