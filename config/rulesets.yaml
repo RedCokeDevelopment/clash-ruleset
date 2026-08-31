@@ -1,0 +1,9 @@
+lowlatency:
+  - services/battle_eye.yaml
+  - services/cloudflare.yaml
+  - services/discord.yaml
+  - services/escapefromtarkov.yaml
+  - services/google.yaml
+
+generic:
+  - MATCH,large-bandwidth
