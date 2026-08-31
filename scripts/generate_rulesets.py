@@ -50,10 +50,7 @@ def rules_from_source(source: str) -> list[str]:
 def generate(name: str, entries: list[str], output_dir: Path) -> None:
     rules: list[str] = []
     for entry in entries:
-        if entry.startswith("MATCH,"):
-            rules.append(entry)
-        else:
-            rules.extend(rules_from_source(entry))
+        rules.extend(rules_from_source(entry))
 
     unique_rules = list(dict.fromkeys(rules))
     output = "payload:\n" + "".join(f"  - {rule}\n" for rule in unique_rules)

@@ -6,4 +6,3 @@ lowlatency:
   - services/google.yaml
 
 generic:
-  - MATCH,large-bandwidth
