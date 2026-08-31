@@ -6,6 +6,8 @@ payload:
   - DOMAIN-SUFFIX,cloudflareclient.com
   - DOMAIN,one.one.one.one
   - PROCESS-NAME,Discord.exe
+  - PROCESS-NAME,DiscordPTB.exe
+  - DOMAIN-SUFFIX,discord.com
   - DOMAIN-SUFFIX,discord.media
   - PROCESS-NAME,BsgLauncher.exe
   - PROCESS-NAME,EscapeFromTarkov.exe
