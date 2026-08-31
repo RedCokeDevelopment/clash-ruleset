@@ -1,0 +1,19 @@
+payload:
+  - PROCESS-NAME,BEService_x64.exe
+  - DOMAIN-SUFFIX,cloudflare.com
+  - DOMAIN-SUFFIX,cloudflare-dns.com
+  - DOMAIN-SUFFIX,cloudflareresolve.com
+  - DOMAIN-SUFFIX,cloudflareclient.com
+  - DOMAIN,one.one.one.one
+  - PROCESS-NAME,Discord.exe
+  - DOMAIN-SUFFIX,discord.media
+  - PROCESS-NAME,BsgLauncher.exe
+  - PROCESS-NAME,EscapeFromTarkov.exe
+  - DOMAIN-SUFFIX,battlestategames.com
+  - DOMAIN-SUFFIX,escapefromtarkov.com
+  - DOMAIN-SUFFIX,eft-support.com
+  - DOMAIN-SUFFIX,arena.tarkov.com
+  - IP-CIDR,95.172.80.0/20
+  - IP-CIDR,195.210.46.0/24
+  - PROCESS-NAME,EscapeFromTarkov_BE.exe
+  - DOMAIN-SUFFIX,gemini.google.com
