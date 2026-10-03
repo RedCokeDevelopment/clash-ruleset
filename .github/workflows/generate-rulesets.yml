@@ -39,7 +39,8 @@ jobs:
 
           cp "$RUNNER_TEMP/generated/lowlatency.yaml" ./lowlatency.yaml
           cp "$RUNNER_TEMP/generated/generic.yaml" ./generic.yaml
-          git add lowlatency.yaml generic.yaml
+          cp "$RUNNER_TEMP/generated/aiservice.yaml" ./aiservice.yaml
+          git add lowlatency.yaml generic.yaml aiservice.yaml
           if git diff --cached --quiet; then
             echo "Generated providers are unchanged."
             exit 0

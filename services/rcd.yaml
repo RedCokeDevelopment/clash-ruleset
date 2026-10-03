@@ -2,6 +2,9 @@ payload:
   # Official Red Coke Development Network
   - DOMAIN-SUFFIX,redcoke.dev
   - DOMAIN-SUFFIX,rcd.network
+  
+  # ASN based routing
+  - IP-ASN,215619
   - IP-CIDR6,2a0f:1cc5:1100::/40
   
   # RCD Product Domains
@@ -11,4 +14,3 @@ payload:
   - DOMAIN-SUFFIX,aligntosun.com
   - DOMAIN-SUFFIX,redtea.red
   - DOMAIN-SUFFIX,redteadev.net
-  - DOMAIN-SUFFIX,liulian.dev

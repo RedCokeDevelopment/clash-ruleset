@@ -1,0 +1,12 @@
+payload:
+  # Claude web app, console and API
+  - DOMAIN-SUFFIX,anthropic.com
+  - DOMAIN-SUFFIX,claude.ai
+  - DOMAIN-SUFFIX,claude.com
+  - DOMAIN-SUFFIX,claudeusercontent.com
+  - DOMAIN-SUFFIX,clau.de # https://x.com/leo114119/status/2106164712920527294/
+  # ASN / IP forced-routing https://bgp.tools/as/399358
+  - IP-ASN,399358
+  - IP-CIDR,160.79.104.0/23
+  - IP-CIDR6,2607:6bc0::/48
+  - IP-CIDR6,2607:6bc0:11::/48

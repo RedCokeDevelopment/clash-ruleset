@@ -1,0 +1,8 @@
+payload:
+  # Gemini app, AI Studio and NotebookLM
+  - DOMAIN-SUFFIX,gemini.google.com
+  - DOMAIN-SUFFIX,aistudio.google.com
+  - DOMAIN-SUFFIX,notebooklm.google.com
+
+  # Generative Language API
+  - DOMAIN-SUFFIX,generativelanguage.googleapis.com

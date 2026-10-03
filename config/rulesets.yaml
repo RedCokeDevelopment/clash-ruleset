@@ -7,4 +7,8 @@ lowlatency:
 
 generic:
   - services/rcd.yaml
-  
+
+aiservice:
+  - services/ai/anthropic.yaml
+  - services/ai/gemini.yaml
+  - services/ai/openai.yaml
